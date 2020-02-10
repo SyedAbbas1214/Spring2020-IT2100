@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE7542023EA957F0094D492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE7541F23EA957F0094D492 /* AppDelegate.swift */; };
+		BCE7542223EA957F0094D492 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE7542123EA957F0094D492 /* SceneDelegate.swift */; };
+		BCE7542423EA957F0094D492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE7542323EA957F0094D492 /* ContentView.swift */; };
+		BCE7542623EA95820094D492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE7542523EA95820094D492 /* Assets.xcassets */; };
+		BCE7542923EA95820094D492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE7542823EA95820094D492 /* Preview Assets.xcassets */; };
+		BCE7542C23EA95820094D492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE7542A23EA95820094D492 /* LaunchScreen.storyboard */; };
+		BCE7543723EA95820094D492 /* Knock_Knock_JokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE7543623EA95820094D492 /* Knock_Knock_JokeTests.swift */; };
+		BCE7544223EA95820094D492 /* Knock_Knock_JokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE7544123EA95820094D492 /* Knock_Knock_JokeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE7543323EA95820094D492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE7541423EA957F0094D492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE7541B23EA957F0094D492;
+			remoteInfo = "Knock-Knock Joke";
+		};
+		BCE7543E23EA95820094D492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE7541423EA957F0094D492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE7541B23EA957F0094D492;
+			remoteInfo = "Knock-Knock Joke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE7541C23EA957F0094D492 /* Knock-Knock Joke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knock-Knock Joke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE7541F23EA957F0094D492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCE7542123EA957F0094D492 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCE7542323EA957F0094D492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCE7542523EA95820094D492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE7542823EA95820094D492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCE7542B23EA95820094D492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE7542D23EA95820094D492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE7543223EA95820094D492 /* Knock-Knock JokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knock-Knock JokeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE7543623EA95820094D492 /* Knock_Knock_JokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock_Knock_JokeTests.swift; sourceTree = "<group>"; };
+		BCE7543823EA95820094D492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE7543D23EA95820094D492 /* Knock-Knock JokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knock-Knock JokeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE7544123EA95820094D492 /* Knock_Knock_JokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock_Knock_JokeUITests.swift; sourceTree = "<group>"; };
+		BCE7544323EA95820094D492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE7541923EA957F0094D492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE7542F23EA95820094D492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE7543A23EA95820094D492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE7541323EA957F0094D492 = {
+			isa = PBXGroup;
+			children = (
+				BCE7541E23EA957F0094D492 /* Knock-Knock Joke */,
+				BCE7543523EA95820094D492 /* Knock-Knock JokeTests */,
+				BCE7544023EA95820094D492 /* Knock-Knock JokeUITests */,
+				BCE7541D23EA957F0094D492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE7541D23EA957F0094D492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE7541C23EA957F0094D492 /* Knock-Knock Joke.app */,
+				BCE7543223EA95820094D492 /* Knock-Knock JokeTests.xctest */,
+				BCE7543D23EA95820094D492 /* Knock-Knock JokeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE7541E23EA957F0094D492 /* Knock-Knock Joke */ = {
+			isa = PBXGroup;
+			children = (
+				BCE7541F23EA957F0094D492 /* AppDelegate.swift */,
+				BCE7542123EA957F0094D492 /* SceneDelegate.swift */,
+				BCE7542323EA957F0094D492 /* ContentView.swift */,
+				BCE7542523EA95820094D492 /* Assets.xcassets */,
+				BCE7542A23EA95820094D492 /* LaunchScreen.storyboard */,
+				BCE7542D23EA95820094D492 /* Info.plist */,
+				BCE7542723EA95820094D492 /* Preview Content */,
+			);
+			path = "Knock-Knock Joke";
+			sourceTree = "<group>";
+		};
+		BCE7542723EA95820094D492 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCE7542823EA95820094D492 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCE7543523EA95820094D492 /* Knock-Knock JokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE7543623EA95820094D492 /* Knock_Knock_JokeTests.swift */,
+				BCE7543823EA95820094D492 /* Info.plist */,
+			);
+			path = "Knock-Knock JokeTests";
+			sourceTree = "<group>";
+		};
+		BCE7544023EA95820094D492 /* Knock-Knock JokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE7544123EA95820094D492 /* Knock_Knock_JokeUITests.swift */,
+				BCE7544323EA95820094D492 /* Info.plist */,
+			);
+			path = "Knock-Knock JokeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE7541B23EA957F0094D492 /* Knock-Knock Joke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE7544623EA95820094D492 /* Build configuration list for PBXNativeTarget "Knock-Knock Joke" */;
+			buildPhases = (
+				BCE7541823EA957F0094D492 /* Sources */,
+				BCE7541923EA957F0094D492 /* Frameworks */,
+				BCE7541A23EA957F0094D492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knock-Knock Joke";
+			productName = "Knock-Knock Joke";
+			productReference = BCE7541C23EA957F0094D492 /* Knock-Knock Joke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE7543123EA95820094D492 /* Knock-Knock JokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE7544923EA95820094D492 /* Build configuration list for PBXNativeTarget "Knock-Knock JokeTests" */;
+			buildPhases = (
+				BCE7542E23EA95820094D492 /* Sources */,
+				BCE7542F23EA95820094D492 /* Frameworks */,
+				BCE7543023EA95820094D492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE7543423EA95820094D492 /* PBXTargetDependency */,
+			);
+			name = "Knock-Knock JokeTests";
+			productName = "Knock-Knock JokeTests";
+			productReference = BCE7543223EA95820094D492 /* Knock-Knock JokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCE7543C23EA95820094D492 /* Knock-Knock JokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE7544C23EA95820094D492 /* Build configuration list for PBXNativeTarget "Knock-Knock JokeUITests" */;
+			buildPhases = (
+				BCE7543923EA95820094D492 /* Sources */,
+				BCE7543A23EA95820094D492 /* Frameworks */,
+				BCE7543B23EA95820094D492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE7543F23EA95820094D492 /* PBXTargetDependency */,
+			);
+			name = "Knock-Knock JokeUITests";
+			productName = "Knock-Knock JokeUITests";
+			productReference = BCE7543D23EA95820094D492 /* Knock-Knock JokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE7541423EA957F0094D492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Syed ali Abbas";
+				TargetAttributes = {
+					BCE7541B23EA957F0094D492 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BCE7543123EA95820094D492 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BCE7541B23EA957F0094D492;
+					};
+					BCE7543C23EA95820094D492 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BCE7541B23EA957F0094D492;
+					};
+				};
+			};
+			buildConfigurationList = BCE7541723EA957F0094D492 /* Build configuration list for PBXProject "Knock-Knock Joke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE7541323EA957F0094D492;
+			productRefGroup = BCE7541D23EA957F0094D492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE7541B23EA957F0094D492 /* Knock-Knock Joke */,
+				BCE7543123EA95820094D492 /* Knock-Knock JokeTests */,
+				BCE7543C23EA95820094D492 /* Knock-Knock JokeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE7541A23EA957F0094D492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE7542C23EA95820094D492 /* LaunchScreen.storyboard in Resources */,
+				BCE7542923EA95820094D492 /* Preview Assets.xcassets in Resources */,
+				BCE7542623EA95820094D492 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE7543023EA95820094D492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE7543B23EA95820094D492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE7541823EA957F0094D492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE7542023EA957F0094D492 /* AppDelegate.swift in Sources */,
+				BCE7542223EA957F0094D492 /* SceneDelegate.swift in Sources */,
+				BCE7542423EA957F0094D492 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE7542E23EA95820094D492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE7543723EA95820094D492 /* Knock_Knock_JokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE7543923EA95820094D492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE7544223EA95820094D492 /* Knock_Knock_JokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE7543423EA95820094D492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE7541B23EA957F0094D492 /* Knock-Knock Joke */;
+			targetProxy = BCE7543323EA95820094D492 /* PBXContainerItemProxy */;
+		};
+		BCE7543F23EA95820094D492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE7541B23EA957F0094D492 /* Knock-Knock Joke */;
+			targetProxy = BCE7543E23EA95820094D492 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE7542A23EA95820094D492 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE7542B23EA95820094D492 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE7544423EA95820094D492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCE7544523EA95820094D492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE7544723EA95820094D492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Knock-Knock Joke/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Knock-Knock Joke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Knock-Knock-Joke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE7544823EA95820094D492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Knock-Knock Joke/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Knock-Knock Joke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Knock-Knock-Joke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCE7544A23EA95820094D492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Knock-Knock JokeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Knock-Knock-JokeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knock-Knock Joke.app/Knock-Knock Joke";
+			};
+			name = Debug;
+		};
+		BCE7544B23EA95820094D492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Knock-Knock JokeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Knock-Knock-JokeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knock-Knock Joke.app/Knock-Knock Joke";
+			};
+			name = Release;
+		};
+		BCE7544D23EA95820094D492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Knock-Knock JokeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Knock-Knock-JokeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Knock-Knock Joke";
+			};
+			name = Debug;
+		};
+		BCE7544E23EA95820094D492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Knock-Knock JokeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.it.Knock-Knock-JokeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Knock-Knock Joke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE7541723EA957F0094D492 /* Build configuration list for PBXProject "Knock-Knock Joke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE7544423EA95820094D492 /* Debug */,
+				BCE7544523EA95820094D492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE7544623EA95820094D492 /* Build configuration list for PBXNativeTarget "Knock-Knock Joke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE7544723EA95820094D492 /* Debug */,
+				BCE7544823EA95820094D492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE7544923EA95820094D492 /* Build configuration list for PBXNativeTarget "Knock-Knock JokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE7544A23EA95820094D492 /* Debug */,
+				BCE7544B23EA95820094D492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE7544C23EA95820094D492 /* Build configuration list for PBXNativeTarget "Knock-Knock JokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE7544D23EA95820094D492 /* Debug */,
+				BCE7544E23EA95820094D492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE7541423EA957F0094D492 /* Project object */;
+}
