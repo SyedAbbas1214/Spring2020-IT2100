@@ -13,6 +13,11 @@
 		BC5BE48524454E230045D03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5BE48324454E230045D03E /* Main.storyboard */; };
 		BC5BE48724454E240045D03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5BE48624454E240045D03E /* Assets.xcassets */; };
 		BC5BE48A24454E240045D03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5BE48824454E240045D03E /* LaunchScreen.storyboard */; };
+		BCCA5B982456223600248B5B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCA5B972456223600248B5B /* AboutViewController.swift */; };
+		BCCA5B9A2456271400248B5B /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCA5B992456271400248B5B /* AboutAuthorViewController.swift */; };
+		BCCA5B9C245A6CEB00248B5B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = BCCA5B9B245A6CEB00248B5B /* BullsEye.html */; };
+		BCCA5BA2245A785500248B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCA5BA1245A785500248B5B /* Assets.xcassets */; };
+		BCCA5BA4245A787500248B5B /* Assets 2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCA5BA3245A787500248B5B /* Assets 2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		BC5BE48624454E240045D03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5BE48924454E240045D03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5BE48B24454E240045D03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCA5B972456223600248B5B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		BCCA5B992456271400248B5B /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		BCCA5B9B245A6CEB00248B5B /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = ../../BullsEye.html; sourceTree = "<group>"; };
+		BCCA5BA1245A785500248B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCCA5BA3245A787500248B5B /* Assets 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				BC5BE47D24454E230045D03E /* AppDelegate.swift */,
 				BC5BE47F24454E230045D03E /* SceneDelegate.swift */,
 				BC5BE48124454E230045D03E /* ViewController.swift */,
+				BCCA5B972456223600248B5B /* AboutViewController.swift */,
 				BC5BE48324454E230045D03E /* Main.storyboard */,
+				BCCA5B992456271400248B5B /* AboutAuthorViewController.swift */,
 				BC5BE48624454E240045D03E /* Assets.xcassets */,
+				BCCA5BA1245A785500248B5B /* Assets.xcassets */,
+				BCCA5BA3245A787500248B5B /* Assets 2.xcassets */,
 				BC5BE48824454E240045D03E /* LaunchScreen.storyboard */,
 				BC5BE48B24454E240045D03E /* Info.plist */,
+				BCCA5B9B245A6CEB00248B5B /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -126,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5BE48A24454E240045D03E /* LaunchScreen.storyboard in Resources */,
+				BCCA5B9C245A6CEB00248B5B /* BullsEye.html in Resources */,
 				BC5BE48724454E240045D03E /* Assets.xcassets in Resources */,
 				BC5BE48524454E230045D03E /* Main.storyboard in Resources */,
+				BCCA5BA4245A787500248B5B /* Assets 2.xcassets in Resources */,
+				BCCA5BA2245A785500248B5B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +158,9 @@
 			files = (
 				BC5BE48224454E230045D03E /* ViewController.swift in Sources */,
 				BC5BE47E24454E230045D03E /* AppDelegate.swift in Sources */,
+				BCCA5B982456223600248B5B /* AboutViewController.swift in Sources */,
 				BC5BE48024454E230045D03E /* SceneDelegate.swift in Sources */,
+				BCCA5B9A2456271400248B5B /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
